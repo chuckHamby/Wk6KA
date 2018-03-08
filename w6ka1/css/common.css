@@ -1,0 +1,32 @@
+#container{
+    border:1px solid blue;
+    padding: 2px;
+}
+#content{
+    min-height: 4em;
+    padding: .05em;
+}
+#header, #footer{
+    padding: 2px;
+}
+
+
+#header, #footer{
+    background-color: darkgrey;
+    text-align: center;
+    color: royalblue;
+}
+h1{
+    color: blue;
+    text-align: left;
+    background-color: gold;
+}
+
+a{
+    border: 1px solid darkgrey;
+    background-color: white;
+    color: darkgrey;
+}
+td{
+    text-align: right;
+}

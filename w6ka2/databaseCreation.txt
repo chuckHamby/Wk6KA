@@ -1,0 +1,15 @@
+create table warranty
+(
+	fname varchar(50) null,
+	lname varchar(50) null,
+	email varchar(255) null,
+	gender varchar(50) null,
+	phoneType varchar(250) null,
+	phoneNumber varchar(50) null,
+	productID varchar(250) null,
+	comments varchar(250) null
+)
+engine=InnoDB
+;
+
+
