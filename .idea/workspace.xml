@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fadebbc-b273-49f3-a8a4-33d2bc9e0a7a" name="Default" comment="">
+    <list default="true" id="2fadebbc-b273-49f3-a8a4-33d2bc9e0a7a" name="Default" comment="Clean up 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -199,7 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519415557258</updated>
       <workItem from="1520545529550" duration="6026000" />
-      <workItem from="1520554792662" duration="752000" />
+      <workItem from="1520554792662" duration="817000" />
     </task>
     <task id="LOCAL-00001" summary="Clean up">
       <created>1520555521016</created>
@@ -215,11 +215,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520555544280</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Clean up 2">
+      <created>1520555557076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520555557076</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6778000" />
+    <option name="totallyTimeSpent" value="6843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1612" height="733" extended-state="6" />
