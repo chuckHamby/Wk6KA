@@ -81,7 +81,7 @@ function display(array &$data)
 
         //$data=load();
 
-        $sql=("SELECT * from interviews.interview WHERE candidateFname=");
+        $sql=("SELECT * from HR_Interviews.interview WHERE candidateFname=");
         $sql.='"'.$fname.'" ';
         $sql.="AND candidateLname=";
         $sql.='"'.$lname.'"';

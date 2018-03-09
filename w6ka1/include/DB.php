@@ -5,7 +5,7 @@ function connect(){
     return @new PDO(
         "mysql:host=localhost;dbname=HR_Interviews",
         "root",
-        "",
+        "mysql",
         array(PDO::ATTR_ERRMODE=>pdo::ERRMODE_EXCEPTION,
             PDO::MYSQL_ATTR_INIT_COMMAND=>"SET NAMES utf8",
             PDO::ATTR_EMULATE_PREPARES=>false )

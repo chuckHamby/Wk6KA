@@ -20,8 +20,8 @@ function save(&$CfName,&$ClName,&$IFN,&$ILN,&$position,&$date,&$abilities,&$appe
         $cleanKnowledge=htmlspecialchars($knowledge,ENT_QUOTES);
         $cleanComments=htmlspecialchars($comments,ENT_QUOTES);
 
-        $sql="insert into interviews.interview (interviewerFName,interviewerLname,position,date,
-              candidateFname,canidateLname,abilities,apperence,skills,comments,Knowledge) 
+        $sql="insert into HR_Interviews.interview (interviewerFName,interviewerLname,position,date,
+              candidateFname,candidateLname,abilities,appearance,skills,comments,Knowledge) 
               values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
         $count=query($sql,array($cleanIFN,$cleanILN,$cleanPosition,$cleanDate,$cleanCfName,$cleanCLName,$cleanAbilities,

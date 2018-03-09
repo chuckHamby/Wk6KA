@@ -18,12 +18,13 @@ function save(&$fName,&$lName,&$email,&$gender,&$phoneType,&$phoneNumber,&$produ
         $cleanComments=htmlspecialchars($comments,ENT_QUOTES);
         ;
 
-        $sql="insert into warrantymanagement.warranty (fname,lname,email,gender,phoneType,phoneNumber,productID,comments) values(?, ?, ?, ?, ?, ?, ?, ?)";
+        $sql="insert into Warranty.warranty (fname,lname,email,gender,phoneType,phoneNumber,productID,comments) 
+              values(?, ?, ?, ?, ?, ?, ?, ?)";
 
-        $count=query($sql,array($cleanfName,$cleanlName,$cleanEmail,$cleanGender,$cleanPhoneType,$cleanPhoneNumber,$cleanProductID,$cleanComments));
+        $count=query($sql,array($cleanfName,$cleanlName,$cleanEmail,$cleanGender,
+                    $cleanPhoneType,$cleanPhoneNumber,$cleanProductID,$cleanComments));
+
         return $count=1;
-
-
     }
     catch(error $e){
         return false;
